@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "t_gauge_automation"
+version = "1.0.0"
+description = "Project to autonomously control a t-gauge railway"
+readme = "README.md"
+requires-python = ">=3.9"
