@@ -8,3 +8,11 @@ version = "1.0.0"
 description = "Project to autonomously control a t-gauge railway"
 readme = "README.md"
 requires-python = ">=3.9"
+dynamic = ["dependencies"]
+
+[tools.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["main_app"]
