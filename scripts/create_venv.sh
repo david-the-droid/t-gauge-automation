@@ -1,2 +1,9 @@
-#!/bin/sh
-# empty shell script - intention is for this to configure a venv on a Linux OS system
+#!/bin/bash
+
+python3 -m venv .venv
+
+echo "Contents are: $(ls -l)"
+
+source .venv/bin/activate
+
+python3 -m pip install -r requirements.txt
