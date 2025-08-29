@@ -1,9 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
-python3 -m venv venv
+python3 -m venv .venv
 
 echo "Contents are: $(ls -l)"
 
-./venv/bin/activate
+source .venv/bin/activate
 
 python3 -m pip install -r requirements.txt
