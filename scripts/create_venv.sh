@@ -1,8 +1,6 @@
 #!/bin/bash
 
-python3 -m venv .venv
-
-echo "Contents are: $(ls -l)"
+python3 -m venv --system-site-packages .venv
 
 source .venv/bin/activate
 
