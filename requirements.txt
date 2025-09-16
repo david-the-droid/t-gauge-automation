@@ -1,1 +1,2 @@
-# empty txt file - intention for this to specify python required modules
+gpiozero==2.0.1
+lgpio==0.2.2
