@@ -4,7 +4,7 @@ from time import sleep
 pwm1 = PWMOutputDevice(27, frequency=137)  # GPIO 27
 pwm2 = PWMOutputDevice(22, frequency=137)  # GPIO 22
 
-try: 
+try:
     pwm1.value = 0
     pwm2.value = 0.3
 
