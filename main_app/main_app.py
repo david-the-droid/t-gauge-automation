@@ -1,5 +1,7 @@
-from gpiozero import PWMOutputDevice
+"""Basic PWM demo"""
+
 from time import sleep
+from gpiozero import PWMOutputDevice
 
 pwm1 = PWMOutputDevice(27, frequency=137)  # GPIO 27
 pwm2 = PWMOutputDevice(22, frequency=137)  # GPIO 22
