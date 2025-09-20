@@ -13,7 +13,7 @@ This repository contains program(s) to autonomously control a T-gauge railway us
 ### Setup Rasberry Pi and T-gauge trainset
 
 1. Connect Pi and circuitry
-2. Clone the repo:\
+2. Clone the repository:\
    `clone <repo-url`
 3. Navigate to the head of directory to run this script (creates and installs the virtual enviroment and dependencies):\
    `source ./scripts/create_venv.sh`
